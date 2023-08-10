@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px;
+}
+.keyword-input {
+  padding: 10px;
+  color: #000000;
+  border: solid 2px #000000;
+  margin-top: 30px;
+  width: 40%;
+  font-weight: 400;
+  font-size: 18px;
+}
+.submit-btn {
+  padding: 14px;
+  color: #ffffff;
+  background-color: #000000;
+  margin-top: 20px;
+  border-width: 0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.date-text {
+  color: #000000;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.final-text {
+  color: #000000;
+  font-weight: bold;
+  margin-top: 10px;
+}
