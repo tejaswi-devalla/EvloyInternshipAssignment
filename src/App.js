@@ -8,7 +8,7 @@ function App() {
   const [getData, setData] = useState("");
   const [showData, setShowData] = useState(false);
 
-  const api_key = process.env.APIKEY;
+  const api_key = "AIzaSyAt0PVJ6OONsoIFa147N4sfi5uIlFvbn5k";
 
   const onSubmitKeywordForm = async (event) => {
     event.preventDefault();
