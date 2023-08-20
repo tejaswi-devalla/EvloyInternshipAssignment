@@ -6,7 +6,7 @@ function App() {
   const [getData, setData] = useState("");
   const [showData, setShowData] = useState(false);
 
-  const api_key = "AIzaSyBjPZ0DW2_8Y6AILM6hBK8jjbAq6k0mQBw";
+  const api_key = "AIzaSyDE-LuwhVvfwrMMpq5qhJrcamiOtlFUKxU";
 
   const onSubmitKeywordForm = async (event) => {
     event.preventDefault();
